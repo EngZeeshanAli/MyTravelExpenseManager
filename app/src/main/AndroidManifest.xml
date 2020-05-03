@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".AddNewPlace"></activity>
+        <activity android:name=".Places" />
+        <activity android:name=".Settings" />
         <activity android:name=".DashBoard" />
         <activity android:name=".Register" />
         <activity android:name=".Login" />

@@ -2,6 +2,8 @@ package com.example.mytravelexpensemanager;
 
 import android.widget.EditText;
 
+import java.util.ArrayList;
+
 public class AppUser {
     String name, email, pass, mobile;
 
@@ -30,4 +32,6 @@ public class AppUser {
     public String getMobile() {
         return mobile;
     }
+
+
 }

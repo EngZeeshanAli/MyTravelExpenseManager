@@ -26,7 +26,7 @@ public class DashBoard extends AppCompatActivity implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.expense:
-                Toast.makeText(this, "ok kjar ", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(DashBoard.this, Places.class));
                 break;
             case R.id.settings:
                 startActivity(new Intent(DashBoard.this, Settings.class));

@@ -51,7 +51,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/aclonica"
                         android:gravity="center"
-                        android:text="asdf"
+                        android:text="PLACES"
                         android:textColor="@color/colorBlack"
                         android:textStyle="bold" />
                 </LinearLayout>
